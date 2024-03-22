@@ -1,7 +1,6 @@
 
 
-# Naziv projekta
-(U redak iznad navedite naziv projekta koji ste dobili za analizu!)
+# Sustav upravljanja gradskim prijevozom putnika
 
 ## Podaci o studentu
 
