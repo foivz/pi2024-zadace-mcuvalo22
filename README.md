@@ -10,7 +10,7 @@ Mateo Čuvalo  | mcuvalo22@student.foi.hr | 0016160237 | mcuvalo22
 
 
 ## Opis domene
-(Vlastitim riječima opišite domenu ili problem koji pokriva projekt vaše zadaće!)
+Kreiranje softverskog rješenja za organizaciju gradskog prijevoza poduzeća Gradski autobusi Varaždin. Poslovanje "na papiru" digitaliziramo te olakšavamo zaposlenicima svakodnevne izmjene te praćenje statistike (kašnjenje, broj putnika i slično) za dodatno unaprijeđenje u kvaliteti usluge. Cilj je ubrzati cijeli proces, smanjiti kašnjenja i omogućiti korisnicima (putnicima) lakše praćenje linija i snalaženje u voznom redu.
 
 ## Specifikacija projekta
 (Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
