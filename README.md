@@ -28,6 +28,4 @@ Sustav može u svakom trenutku prikazati točan broj putnika u svakom vozilu kom
 https://github.com/foivz/pi2024-zadace-mcuvalo22/blob/ea02f22cbbd9b3a6769f081ca94ae250a2a13f0d/Documentation/Zadatak%20-%20Gradski%20prijevoz.pdf
 
 ## Resursi
-(Zadaće je obvezno predati u obliku Wiki stranica na ovom repozitoriju. Slike i druge artefakte koje ćete koristiti na wiki stranicama smjestite u mapu dokumentacije u repozitoriju!)
-
 Svi resursi nalaze se u mapi _Documentation_.
