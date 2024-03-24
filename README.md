@@ -16,7 +16,7 @@ Kreiranje softverskog rješenja za organizaciju gradskog prijevoza poduzeća Gra
 (Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
 
 ## Zadatak
-(U root repozitorija učitajte zadatak koji ste dobili i potom ovdje stavite link na njegovo otvaranje!)
+https://github.com/foivz/pi2024-zadace-mcuvalo22/blob/ea02f22cbbd9b3a6769f081ca94ae250a2a13f0d/Documentation/Zadatak%20-%20Gradski%20prijevoz.pdf
 
 ## Resursi
 (Zadaće je obvezno predati u obliku Wiki stranica na ovom repozitoriju. Slike i druge artefakte koje ćete koristiti na wiki stranicama smjestite u mapu dokumentacije u repozitoriju!)
