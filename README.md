@@ -24,7 +24,7 @@ Kreiranje softverskog rješenja za organizaciju gradskog prijevoza poduzeća Gra
 * Sustav može u svakom trenutku prikazati točan broj putnika u svakom vozilu komunikacijom sa senzorima postavljenim iznad svih vrata svakog vozila
 
 ## Zadatak
-https://github.com/foivz/pi2024-zadace-mcuvalo22/blob/ea02f22cbbd9b3a6769f081ca94ae250a2a13f0d/Documentation/Zadatak%20-%20Gradski%20prijevoz.pdf
+[Zadatak](https://github.com/foivz/pi2024-zadace-mcuvalo22/blob/ea02f22cbbd9b3a6769f081ca94ae250a2a13f0d/Documentation/Zadatak%20-%20Gradski%20prijevoz.pdf)
 
 ## Resursi
 Svi resursi nalaze se u mapi _Documentation_.
