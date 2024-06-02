@@ -48,7 +48,8 @@
             // 
             // btnOdustani
             // 
-            this.btnOdustani.Location = new System.Drawing.Point(122, 494);
+            this.btnOdustani.ForeColor = System.Drawing.Color.Black;
+            this.btnOdustani.Location = new System.Drawing.Point(117, 482);
             this.btnOdustani.Name = "btnOdustani";
             this.btnOdustani.Size = new System.Drawing.Size(75, 23);
             this.btnOdustani.TabIndex = 31;
@@ -58,11 +59,13 @@
             // 
             // btnDodajVozilo
             // 
-            this.btnDodajVozilo.Location = new System.Drawing.Point(108, 443);
+            this.btnDodajVozilo.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.btnDodajVozilo.ForeColor = System.Drawing.Color.Black;
+            this.btnDodajVozilo.Location = new System.Drawing.Point(103, 431);
             this.btnDodajVozilo.Name = "btnDodajVozilo";
             this.btnDodajVozilo.Size = new System.Drawing.Size(102, 45);
             this.btnDodajVozilo.TabIndex = 30;
-            this.btnDodajVozilo.Text = "DODAJ";
+            this.btnDodajVozilo.Text = "Dodaj";
             this.btnDodajVozilo.UseVisualStyleBackColor = true;
             this.btnDodajVozilo.Click += new System.EventHandler(this.btnDodajVozilo_Click);
             // 
@@ -73,7 +76,7 @@
             "Autobus",
             "Kombi",
             "Automobil"});
-            this.cboVrstaVozila.Location = new System.Drawing.Point(44, 393);
+            this.cboVrstaVozila.Location = new System.Drawing.Point(39, 381);
             this.cboVrstaVozila.Name = "cboVrstaVozila";
             this.cboVrstaVozila.Size = new System.Drawing.Size(121, 21);
             this.cboVrstaVozila.TabIndex = 29;
@@ -81,9 +84,10 @@
             // lblVrstaVozila
             // 
             this.lblVrstaVozila.AutoSize = true;
-            this.lblVrstaVozila.Location = new System.Drawing.Point(44, 376);
+            this.lblVrstaVozila.BackColor = System.Drawing.Color.Transparent;
+            this.lblVrstaVozila.Location = new System.Drawing.Point(39, 364);
             this.lblVrstaVozila.Name = "lblVrstaVozila";
-            this.lblVrstaVozila.Size = new System.Drawing.Size(61, 13);
+            this.lblVrstaVozila.Size = new System.Drawing.Size(65, 13);
             this.lblVrstaVozila.TabIndex = 28;
             this.lblVrstaVozila.Text = "Vrsta vozila";
             // 
@@ -94,7 +98,7 @@
             "Servis",
             "U pogonu",
             "Skladište"});
-            this.cboStanje.Location = new System.Drawing.Point(44, 337);
+            this.cboStanje.Location = new System.Drawing.Point(39, 325);
             this.cboStanje.Name = "cboStanje";
             this.cboStanje.Size = new System.Drawing.Size(121, 21);
             this.cboStanje.TabIndex = 27;
@@ -102,9 +106,10 @@
             // lblStanje
             // 
             this.lblStanje.AutoSize = true;
-            this.lblStanje.Location = new System.Drawing.Point(44, 321);
+            this.lblStanje.BackColor = System.Drawing.Color.Transparent;
+            this.lblStanje.Location = new System.Drawing.Point(39, 309);
             this.lblStanje.Name = "lblStanje";
-            this.lblStanje.Size = new System.Drawing.Size(37, 13);
+            this.lblStanje.Size = new System.Drawing.Size(39, 13);
             this.lblStanje.TabIndex = 26;
             this.lblStanje.Text = "Stanje";
             // 
@@ -116,7 +121,7 @@
             "Benzin",
             "Hibrid",
             "Električno vozilo"});
-            this.cboTipGoriva.Location = new System.Drawing.Point(42, 279);
+            this.cboTipGoriva.Location = new System.Drawing.Point(37, 267);
             this.cboTipGoriva.Name = "cboTipGoriva";
             this.cboTipGoriva.Size = new System.Drawing.Size(121, 21);
             this.cboTipGoriva.TabIndex = 25;
@@ -125,73 +130,78 @@
             // lblTipGoriva
             // 
             this.lblTipGoriva.AutoSize = true;
-            this.lblTipGoriva.Location = new System.Drawing.Point(41, 262);
+            this.lblTipGoriva.BackColor = System.Drawing.Color.Transparent;
+            this.lblTipGoriva.Location = new System.Drawing.Point(36, 250);
             this.lblTipGoriva.Name = "lblTipGoriva";
-            this.lblTipGoriva.Size = new System.Drawing.Size(54, 13);
+            this.lblTipGoriva.Size = new System.Drawing.Size(58, 13);
             this.lblTipGoriva.TabIndex = 24;
             this.lblTipGoriva.Text = "Tip goriva";
             // 
             // txtKapacitet
             // 
-            this.txtKapacitet.Location = new System.Drawing.Point(42, 225);
+            this.txtKapacitet.Location = new System.Drawing.Point(37, 213);
             this.txtKapacitet.Name = "txtKapacitet";
-            this.txtKapacitet.Size = new System.Drawing.Size(121, 20);
+            this.txtKapacitet.Size = new System.Drawing.Size(121, 22);
             this.txtKapacitet.TabIndex = 23;
             // 
             // lblKapacitet
             // 
             this.lblKapacitet.AutoSize = true;
-            this.lblKapacitet.Location = new System.Drawing.Point(41, 208);
+            this.lblKapacitet.BackColor = System.Drawing.Color.Transparent;
+            this.lblKapacitet.Location = new System.Drawing.Point(36, 196);
             this.lblKapacitet.Name = "lblKapacitet";
-            this.lblKapacitet.Size = new System.Drawing.Size(52, 13);
+            this.lblKapacitet.Size = new System.Drawing.Size(54, 13);
             this.lblKapacitet.TabIndex = 22;
             this.lblKapacitet.Text = "Kapacitet";
             // 
             // txtRegistracija
             // 
-            this.txtRegistracija.Location = new System.Drawing.Point(42, 170);
+            this.txtRegistracija.Location = new System.Drawing.Point(37, 158);
             this.txtRegistracija.Name = "txtRegistracija";
-            this.txtRegistracija.Size = new System.Drawing.Size(121, 20);
+            this.txtRegistracija.Size = new System.Drawing.Size(121, 22);
             this.txtRegistracija.TabIndex = 21;
             // 
             // lblRegistracija
             // 
             this.lblRegistracija.AutoSize = true;
-            this.lblRegistracija.Location = new System.Drawing.Point(41, 153);
+            this.lblRegistracija.BackColor = System.Drawing.Color.Transparent;
+            this.lblRegistracija.Location = new System.Drawing.Point(36, 141);
             this.lblRegistracija.Name = "lblRegistracija";
-            this.lblRegistracija.Size = new System.Drawing.Size(101, 13);
+            this.lblRegistracija.Size = new System.Drawing.Size(106, 13);
             this.lblRegistracija.TabIndex = 20;
             this.lblRegistracija.Text = "Registarska oznaka";
             // 
             // txtGodinaProizvodnje
             // 
-            this.txtGodinaProizvodnje.Location = new System.Drawing.Point(41, 115);
+            this.txtGodinaProizvodnje.Location = new System.Drawing.Point(36, 103);
             this.txtGodinaProizvodnje.Name = "txtGodinaProizvodnje";
-            this.txtGodinaProizvodnje.Size = new System.Drawing.Size(122, 20);
+            this.txtGodinaProizvodnje.Size = new System.Drawing.Size(122, 22);
             this.txtGodinaProizvodnje.TabIndex = 19;
             // 
             // lblGodinaProizvodnje
             // 
             this.lblGodinaProizvodnje.AutoSize = true;
-            this.lblGodinaProizvodnje.Location = new System.Drawing.Point(41, 99);
+            this.lblGodinaProizvodnje.BackColor = System.Drawing.Color.Transparent;
+            this.lblGodinaProizvodnje.Location = new System.Drawing.Point(36, 87);
             this.lblGodinaProizvodnje.Name = "lblGodinaProizvodnje";
-            this.lblGodinaProizvodnje.Size = new System.Drawing.Size(98, 13);
+            this.lblGodinaProizvodnje.Size = new System.Drawing.Size(109, 13);
             this.lblGodinaProizvodnje.TabIndex = 18;
             this.lblGodinaProizvodnje.Text = "Godina proizvodnje";
             // 
             // txtMarkaModel
             // 
-            this.txtMarkaModel.Location = new System.Drawing.Point(41, 62);
+            this.txtMarkaModel.Location = new System.Drawing.Point(36, 50);
             this.txtMarkaModel.Name = "txtMarkaModel";
-            this.txtMarkaModel.Size = new System.Drawing.Size(239, 20);
+            this.txtMarkaModel.Size = new System.Drawing.Size(239, 22);
             this.txtMarkaModel.TabIndex = 17;
             // 
             // lblMarkaModel
             // 
             this.lblMarkaModel.AutoSize = true;
-            this.lblMarkaModel.Location = new System.Drawing.Point(38, 45);
+            this.lblMarkaModel.BackColor = System.Drawing.Color.Transparent;
+            this.lblMarkaModel.Location = new System.Drawing.Point(33, 33);
             this.lblMarkaModel.Name = "lblMarkaModel";
-            this.lblMarkaModel.Size = new System.Drawing.Size(76, 13);
+            this.lblMarkaModel.Size = new System.Drawing.Size(83, 13);
             this.lblMarkaModel.TabIndex = 16;
             this.lblMarkaModel.Text = "Marka i model ";
             // 
@@ -199,6 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::GPVŽ_programsko_rješenje.Properties.Resources.Frame_1;
             this.ClientSize = new System.Drawing.Size(323, 562);
             this.Controls.Add(this.btnOdustani);
             this.Controls.Add(this.btnDodajVozilo);
@@ -216,6 +227,10 @@
             this.Controls.Add(this.lblGodinaProizvodnje);
             this.Controls.Add(this.txtMarkaModel);
             this.Controls.Add(this.lblMarkaModel);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FrmAzuriranje";
             this.Text = "FrmAzuriranje";
             this.Load += new System.EventHandler(this.FrmAzuriranje_Load);

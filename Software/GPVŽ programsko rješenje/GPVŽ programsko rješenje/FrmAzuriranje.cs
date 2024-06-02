@@ -32,9 +32,9 @@ namespace GPVŽ_programsko_rješenje
             txtGodinaProizvodnje.Text = selectedvozilo.GodinaProizvodnje.ToString();
             txtRegistracija.Text = selectedvozilo.Registracija;
             txtKapacitet.Text=selectedvozilo.Kapacitet.ToString();
-            cboTipGoriva.SelectedItem=selectedvozilo.TipGoriva;
-            cboStanje.SelectedItem=selectedvozilo.Stanje;
-            cboVrstaVozila.SelectedItem=selectedvozilo.VrstaVozila;
+            cboTipGoriva.SelectedItem=selectedvozilo.TipGoriva.ToString();
+            cboStanje.SelectedItem=selectedvozilo.Stanje.ToString();
+            cboVrstaVozila.SelectedItem=selectedvozilo.VrstaVozila.ToString();
 
         }
 

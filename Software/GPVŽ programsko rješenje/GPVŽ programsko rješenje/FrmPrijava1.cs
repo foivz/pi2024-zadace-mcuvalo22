@@ -13,11 +13,11 @@ using System.Windows.Forms;
 
 namespace GPVŽ_programsko_rješenje
 {
-    public partial class FrmPrijava : Form
+    public partial class FrmLogin : Form
     {
         public static Zaposlenik LoggedZaposlenik { get; set; }
 
-        public FrmPrijava()
+        public FrmLogin()
         {
             InitializeComponent();
         }

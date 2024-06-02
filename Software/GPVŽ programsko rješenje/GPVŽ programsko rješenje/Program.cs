@@ -16,7 +16,7 @@ namespace GPVŽ_programsko_rješenje
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLogin());
+            Application.Run(new FrmPrijava());
         }
     }
 }
