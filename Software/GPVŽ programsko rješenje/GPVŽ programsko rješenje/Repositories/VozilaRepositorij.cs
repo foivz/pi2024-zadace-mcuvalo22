@@ -30,9 +30,9 @@ namespace GPVŽ_programsko_rješenje.Repositories
         {
             int ID_Vozila = int.Parse(reader["ID_vozila"].ToString());
             string MarkaModel = reader["MarkaModel"].ToString();
-            int GodinaProizvodnje = int.Parse(reader["GodinaProizvodnje"].ToString());
+            string GodinaProizvodnje = reader["GodinaProizvodnje"].ToString();
             string Registracija = reader["RegistarskaOznaka"].ToString();
-            int Kapacitet = int.Parse(reader["Kapacitet"].ToString());
+            string Kapacitet = reader["Kapacitet"].ToString();
             string TipGoriva = reader["TipGoriva"].ToString();
             string Stanje = reader["Stanje"].ToString();
             string VrstaVozila = reader["VrstaVozila"].ToString();
@@ -70,9 +70,9 @@ namespace GPVŽ_programsko_rješenje.Repositories
                 {
                     ID_Vozila = int.Parse(reader["ID_vozila"].ToString()),
                     MarkaModel = reader["MarkaModel"].ToString(),
-                    GodinaProizvodnje = int.Parse(reader["GodinaProizvodnje"].ToString()),
+                    GodinaProizvodnje =reader["GodinaProizvodnje"].ToString(),
                     Registracija = reader["RegistarskaOznaka"].ToString(),
-                    Kapacitet = int.Parse(reader["Kapacitet"].ToString()),
+                    Kapacitet =reader["Kapacitet"].ToString(),
                     TipGoriva = reader["TipGoriva"].ToString(),
                     Stanje = reader["Stanje"].ToString(),
                     VrstaVozila = reader["VrstaVozila"].ToString()
@@ -91,6 +91,15 @@ namespace GPVŽ_programsko_rješenje.Repositories
             DB.ExecuteCommand(sql);
             DB.CloseConnection() ;
         }
+
+        public static void Update(string marka, string godina, string registracija, string kapacitet, string tip, string stanje, string vrsta, int idvozila)
+        {
+            string sql = $"UPDATE Vozila SET MarkaModel = '{marka}', GodinaProizvodnje='{godina}',RegistarskaOznaka='{registracija}', Kapacitet ='{kapacitet}',TipGoriva='{tip}',Stanje='{stanje}',VrstaVozila='{vrsta}' WHERE ID_vozila ='{idvozila}'";
+            DB.OpenConnection();
+            DB.ExecuteCommand(sql);
+            DB.CloseConnection();
+        }
+
     }
 
 }

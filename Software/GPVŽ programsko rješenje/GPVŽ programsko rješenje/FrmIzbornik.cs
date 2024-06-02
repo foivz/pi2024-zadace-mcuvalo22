@@ -36,7 +36,10 @@ namespace GPVŽ_programsko_rješenje
 
         private void btnPretraziVozila_Click(object sender, EventArgs e)
         {
-
+            Vozila selectedvozilo = dgvVozilo.CurrentRow.DataBoundItem as Vozila;
+            FrmAzuriranje frmAzuriranje = new FrmAzuriranje(selectedvozilo);
+            frmAzuriranje.ShowDialog();
+            ShowVozila();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

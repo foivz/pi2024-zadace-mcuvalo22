@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAzuriranje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAzuriranje.Designer.cs">
+      <DependentUpon>FrmAzuriranje.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmDodajVozilo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <Compile Include="Repositories\ZaposlenikRepozitorij.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>FrmPrijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAzuriranje.resx">
+      <DependentUpon>FrmAzuriranje.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDodajVozilo.resx">
       <DependentUpon>FrmDodajVozilo.cs</DependentUpon>
