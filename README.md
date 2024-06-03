@@ -4,8 +4,8 @@
 
 ## Podaci za prijavu u sustav
 
-Korisničko ime: test  <br />
-Lozinka: 1
+**Korisničko ime:** test  <br />
+**Lozinka:** 1
 
 ## Podaci o studentu
 
