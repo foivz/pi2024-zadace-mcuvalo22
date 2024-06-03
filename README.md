@@ -31,5 +31,5 @@ Svi resursi nalaze se u mapi _Documentation_.
 
 ## Podaci za prijavu u sustav
 
-Korisničko ime: test
+Korisničko ime: test  <br />
 Lozinka: 1
