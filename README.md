@@ -2,6 +2,11 @@
 
 # Sustav upravljanja gradskim prijevozom putnika
 
+## Podaci za prijavu u sustav
+
+Korisničko ime: test  <br />
+Lozinka: 1
+
 ## Podaci o studentu
 
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
@@ -28,8 +33,3 @@ Kreiranje softverskog rješenja za organizaciju gradskog prijevoza poduzeća Gra
 
 ## Resursi
 Svi resursi nalaze se u mapi _Documentation_.
-
-## Podaci za prijavu u sustav
-
-Korisničko ime: test  <br />
-Lozinka: 1
